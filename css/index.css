@@ -1,0 +1,977 @@
+
+/*================== Reset ====================*/
+
+*, *::after, *::before{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+outline: none;
+
+}
+body{
+font-family: Lato,sans-serif;
+line-height: 1.4;
+overflow-x: hidden;
+
+}
+
+/*================== Reset ====================*/
+
+
+
+/*================== Utility Classess ====================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+
+.container {
+  margin: auto;
+  max-width: 1281px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+a{
+text-decoration: none;
+color:rgba(0, 70, 192,0.8);
+
+}
+
+.color-green{
+color: #b5f44a;
+}
+
+/*================== Utility Classess ====================*/
+
+
+/*================== Desktop View ====================*/
+
+
+
+/*================== Navbar ====================*/
+  /* Nav Mobile */
+
+.mobile-flex{
+display: none;
+}
+
+
+ /* Nav Mobile */
+
+  /* Nav Desktop  */
+
+#navbar {
+  background-color:#fff;
+  color: rgba(0, 70, 192,0.8);
+  overflow: auto;
+
+}
+
+.nav-fixed{
+background-color:#fff;
+ overflow:  hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+box-shadow: 0px 2px 20px 1px rgba(0, 0, 0, 0.02 );
+}
+
+.logo{
+display: inline;
+color: rgba(0, 70, 192,0.8);
+}
+
+
+#navbar a{
+margin: 0;
+padding: 0;
+}
+
+#navbar  img{
+width: 110px;
+margin: 1rem 1rem 0.5rem 4rem;
+}
+
+
+#navbar ul{
+float:  right;
+
+}
+#navbar ul li{
+float: left;
+
+}
+#navbar ul li a{
+display: block;
+padding: 2rem  1.5rem;
+}
+#navbar ul li a.active, #navbar ul li a:hover{
+color: #4361ee;
+background-color: #c9e4de;
+transition:  0.3s;
+}
+
+#navbar  i{
+display: inline-block;
+}
+
+
+  /* Nav Desktop  */
+
+
+
+/*================== Navbar ====================*/
+
+
+
+/*================== Home ====================*/
+
+
+#home{
+height: 100%;
+margin: auto ;
+z-index: -100;
+}
+
+.bg-transcolor{
+height: 697px;
+   left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0; 
+background-color: rgba(0, 70, 192,0.8) ;
+
+}
+
+.two-sections{
+display: flex;
+flex-direction: row;
+margin:  13rem  3rem 2rem;
+}
+
+.section-left{
+display: inline-block;
+width: 50%;
+}
+
+.section-heading{
+color: white;
+font-size: 2.5rem;
+}
+
+.section-para{
+color: white;
+font-size: 1rem;
+padding-bottom: 1rem;
+}
+
+.btn-1{
+text-decoration: none;
+display: inline-block;
+padding: 1rem;
+border-radius: 5px ;
+background-color: white;
+color: rgba(0, 70, 192,0.8) ;
+border-style: none;
+}
+
+.btn-1:hover{
+animation-duration: 1s;
+background-color: transparent;
+color: white ;
+border: 2px solid  white;
+}
+
+
+
+.btn-2{
+text-decoration: none;
+display: inline-block;
+margin: 20px 0 0 10px;
+padding: 1rem 1.5rem;
+border: 2px solid  white;
+border-radius: 5px ;
+background-color:  transparent ;
+color: white;
+}
+
+.btn-2:hover{
+animation-duration: 1s;
+background-color: white;
+color: rgba(0, 70, 192,0.8) ;
+border: none;
+}
+
+
+.section-right{
+display: inline-block;
+width: 50%;
+height: auto;
+}
+
+#home .image-1{
+width: 100%;
+height: auto;
+}
+
+/*================== Home ====================*/
+
+
+
+
+/*================== About ====================*/
+
+
+#about{
+height: 100%;
+margin: auto ;
+}
+
+
+.two-sections-2{
+display: flex;
+flex-direction: row;
+height: auto;
+margin:  6rem 3rem;
+}
+
+.section-left-2{
+display: inline-block;
+width: 50%;
+height: auto;
+}
+
+.section-right-2{
+display: inline-block;
+width: 50%;
+height: auto;
+margin: 0 2rem;
+}
+
+.image-2{
+width: 100%;
+height: auto;
+}
+
+
+.section-heading-2{
+color: black;
+font-size: 2rem;
+padding-bottom: 1rem;
+}
+
+.section-para-2{
+color:black;
+font-size: 1.2rem;
+}
+
+
+ .How-to-do{
+margin-top: 0.5rem;
+color:black;
+font-size: 1.5rem;
+ }
+
+
+.How-to-do h5{
+margin-top: 0.3rem;
+}
+
+#about i{
+color:rgba(0, 70, 192,0.8) ;
+margin: 1rem;
+}
+
+.btn-3{
+text-decoration: none;
+display: inline-block;
+margin: 1rem 0 0 2.5rem;
+padding: 1rem 2rem;
+border: none;
+border-radius: 5px ;
+background-color: rgba(0, 70, 192,0.8);
+color: white ;
+}
+
+.btn-3:hover{
+animation-duration: 0.3s;
+background-color: black;
+color: white ;
+border: none;
+} 
+
+
+/*================== Home ====================*/
+
+
+
+/*================== Services ====================*/
+
+#services{
+height: 100%;
+margin: auto ;
+}
+
+#services h1{
+text-align: center;
+font-size: 2rem;
+margin: 5rem auto 2rem;
+}
+
+
+.boxes{
+display: grid;
+grid-template-areas:
+'box-1 box-2 box-3 box-4'
+'box-5 box-6 box-7 box-8';
+grid-gap: 0.1rem;
+margin: 5rem 2rem;
+}
+
+.box-1{
+grid-area: box-1;
+}
+
+.box-2{
+grid-area: box-2;
+}
+
+
+.box-3{
+grid-area: box-3;
+}
+
+
+.box-4{
+grid-area: box-4;
+}
+
+
+
+.box-5{
+grid-area: box-5;
+}
+
+.box-6{
+grid-area: box-6;
+}
+
+.box-7{
+grid-area: box-7;
+}
+
+.box-8{
+grid-area: box-8;
+}
+
+.box-1, .box-2, .box-3, .box-4 , .box-5, .box-6, .box-7, .box-8{
+margin: 1rem;
+padding: 1rem;
+border-radius: 5px;
+box-shadow: 5px 5px 50px 3px rgba(0, 0, 0, 0.2);
+
+
+}
+
+#services .boxes{
+text-align: center;
+
+}
+
+#services .boxes i{
+/* margin: 0.3rem; */
+color: rgba(0, 70, 192,0.8);
+margin: 1rem auto;
+}
+
+#services .boxes h4{
+margin: 0.5rem;
+margin: 1rem auto;
+}
+#services .boxes p{
+margin: 0.5rem;
+margin: 1rem auto;
+}
+
+#services .btn-3{
+border-radius: 1px;
+margin: 0;
+}
+
+#services .boxes .box-1:hover,#services .boxes .box-2:hover,#services .boxes .box-3:hover,#services .boxes .box-4:hover,#services .boxes .box-5:hover,#services .boxes .box-6:hover, #services .boxes .box-7:hover, #services .boxes .box-8:hover{
+background-color: rgba(0, 70, 192,0.5);
+color: #fff;
+transition: 0.8s ease-in-out;
+}
+
+
+
+
+/*================== Services ====================*/
+
+
+
+/*================== Doctors ====================*/
+
+#doctors{
+height: 100%;
+margin: auto ;
+}
+
+#doctors h1{
+text-align: center;
+font-size: 2rem;
+margin: 5rem  4rem;
+}
+
+
+#doctors .boxes-2{
+display: flex;
+flex-direction: row;
+margin: 5rem 4rem;
+/* padding: 0 2rem; */
+text-align: center;
+}
+
+#doctors .doc{
+margin: 0 1rem;
+border-radius: 10px;
+box-shadow: 5px 5px 50px 1px rgba(0, 0, 0, 0.2);
+}
+
+#doctors  .doc img{
+width: 100%;
+height: auto;
+border-radius: 10px;
+}
+
+#doctors .doc h3{
+margin: 1rem 0;
+}
+
+#doctors .doc .btn-3{
+margin: 1rem auto;
+padding: 1rem;
+border-radius: 10px;
+}
+
+/*================== Doctors ====================*/
+
+/*================== Contact US ====================*/
+
+#contact-us{
+height: 100%;
+margin: auto ;
+}
+
+#contact-us  h1{
+text-align: center;
+font-size: 2rem;
+margin: 5rem auto 2rem;
+}
+
+
+
+.boxes-3{
+display: grid;
+grid-template-areas:
+'box-con-1 box-con-2';
+grid-gap: 5rem;
+margin: 5rem 2rem;
+}
+
+
+.box-con-1{
+grid-area: box-con-1;
+}
+
+.box-con-2{
+grid-area: box-con-2;
+}
+
+.box-con-1, .box-con-2{
+margin: 3rem;
+padding: 1rem;
+border-radius: 5px;
+box-shadow: 5px 5px 50px 3px rgba(0, 0, 0, 0.2);
+}
+
+.box-con-1, .box-con-2{
+text-align: center;
+background-color: rgba(0, 70, 192,0.8) ;
+color: #fff;
+}
+
+.box-con-1 h2 .box-con-2 h2{
+font-size: 2rem;
+margin: 2rem 0;
+}
+
+
+.box-con-1 p{
+font-size: 1.5rem;
+margin: 2rem 0;
+}
+
+.box-con-1 address{
+font-size: 1.5rem;
+margin: 2rem 0;
+}
+
+.form-group{
+margin: 1rem 0;
+}
+
+.form-group label{
+font-size: 1.5rem;
+margin: 0 1rem;
+}
+
+
+input[type=text] ,input[type=email] {
+background: transparent;
+border: none;
+border-bottom: 1px solid #000000;
+color: #fff;
+border-color: #fff;
+}
+
+
+
+#contact-us button{
+background-color: #fff;
+color: rgba(0, 70, 192,0.8);
+}
+
+
+#contact-us button:hover{
+background-color: #000;
+color: #fff;
+}
+
+
+
+/*================== Contact US ====================*/
+
+
+/*================== Footer====================*/
+#footer{
+height: 100%;
+}
+
+.footer{
+background-color:  rgba(0, 70, 192,0.8);
+color: #fff;
+text-align: center;
+padding: 1rem 0;
+}
+
+
+/*================== Footer ====================*/
+
+
+
+
+/*================== Tab View ====================*/
+
+
+@media only screen and  (max-width: 992px ) {
+
+/*================== Navbar ====================*/
+
+  /* Nav Desktop  */
+
+
+
+ #navbar .logo a{
+margin: 0;
+}
+
+
+  /* Nav Desktop  */
+
+
+/*================== Navbar ====================*/
+
+
+
+/*================== Services ====================*/
+
+#services {
+margin-top: 1rem;
+}
+.boxes{
+grid-template-areas:
+'box-1 box-2' 
+'box-3 box-4'
+'box-5 box-6'
+'box-7 box-8';
+}
+
+
+
+/*================== Services ====================*/
+
+
+/*================== Doctors ====================*/
+
+#doctors .doc h3{
+font-size: 0.8rem;
+}
+
+#doctors p{
+font-size: 0.8rem;
+}
+
+#doctors .doc .btn-3{
+margin: 1rem auto;
+padding: 0.7rem;
+border-radius: 5px;
+}
+/*================== Doctors ====================*/
+
+
+/*================== Contact US ====================*/
+
+
+
+.box-con-1, .box-con-2{
+margin: 0.5rem;
+}
+
+ .box-con-1 p{
+font-size: 1rem;
+margin: 2.5rem 0;
+}
+
+.box-con-1 address{
+font-size: 1rem;
+margin: 2.5rem 0;
+}
+
+#contact-us button{
+margin: 0;
+}
+
+}
+/*================== Contact US ====================*/
+
+
+/*================== Tab View ====================*/
+
+
+
+
+
+/*================== Mobile View ====================*/
+
+
+@media only screen and  (max-width: 768px) {
+
+
+/*================== Navbar ====================*/
+
+
+
+  /*  Nav Mobile */
+.mobile-flex{
+
+display: flex;
+position: fixed;
+background-color: #fff;
+width: 100%;
+box-shadow: 0px 2px 20px 1px rgba(0, 0, 0, 0.02 );
+top: 0;
+left: 0;
+right: 0;
+}
+
+.logo-mobile{
+margin: 0 1rem;
+padding: 1rem;
+font-size: 1.5rem;
+}
+
+
+.logo-mobile a{
+width: 100px;
+}
+
+.logo-mobile img{
+width: 25%;
+height: auto;
+}
+
+
+
+.nav-mobile{
+	height: 100%; 
+	width: 0; 
+	 position: fixed;
+	top: 0;
+	right: 0;
+	background-color:  rgba(0, 70, 192,1);
+	opacity: 0.9;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.nav-mobile a {
+	display: block;
+	padding: 20px 30px;
+	font-size: 25px;
+	text-decoration: none;
+	color: rgba(255, 255, 255,1) ;
+}
+
+
+.nav-moble a:hover {
+	color: #fff;
+	transition: 0.4s;
+}
+
+.nav-mobile .close-mobile {
+	position: block;
+	top: 0;
+	font-size: 2rem ;
+}
+
+.slide-mobile{
+position: inline-block;
+z-index: 1000;
+}
+
+
+
+.slide-mobile a {
+position: absolute;
+right: 2rem;
+color: rgba(0, 70, 192,0.8);
+font-size: 2rem; 
+margin: 1rem 0 0; 
+}
+#content-mobile {
+
+padding: 20px;
+transition: margin-left 0.7s;
+overflow: hidden;
+}
+
+ /* Nav Mobile */
+
+
+
+  /* Nav Desktop  */
+#navbar{
+display: none;
+}
+
+ #navbar .logo a{
+margin: 0;
+
+}
+  /* Nav Desktop  */
+
+
+/*================== Navbar ====================*/
+
+
+
+/*================== Home ====================*/
+
+#home{
+background: none;
+height: 720px;
+
+}
+
+#home .container{
+background-color: rgba(0, 70, 192,0.8);
+}
+
+.bg-transcolor{
+background-color: rgba(0, 0,0, 0);
+
+}
+
+#home .two-sections{
+flex-direction: column-reverse;
+ justify-content: center;
+
+}
+
+.section-left{
+display: block;
+width: 100%;
+text-align: center;
+
+}
+
+.section-heading{
+font-size: 1.5rem;
+padding: 1rem 0;
+text-align: center;
+}
+
+.section-para{
+
+font-size: 0.8rem;
+padding-bottom: 0.5rem;
+text-align: center;
+}
+
+.btn-1{
+padding: 0.7rem;
+}
+
+.btn-2{
+padding:  0.5rem 0.6rem;
+}
+
+.section-right{
+display: block;
+width: 100%;
+height: auto;
+
+
+}
+
+
+
+/*================== Home ====================*/
+
+
+
+
+/*================== About ====================*/
+
+#about .two-sections-2{
+
+flex-direction: column;
+margin:  10rem  1rem 0;
+text-align: center;
+}
+
+#about .section-left-2{
+display: block;
+width: 100%;
+height: auto;
+}
+
+ .section-right-2{
+display: block;
+width: 100%;
+height: auto;
+margin: 2rem auto 2rem;
+
+
+}
+
+
+
+
+/*================== About ====================*/
+
+
+
+/*================== Services ====================*/
+
+
+#services {
+margin-top: 30rem;
+}
+#services .boxes{
+grid-template-areas:
+'box-1 box-2' 
+'box-3 box-4'
+'box-5 box-6'
+'box-7 box-8';
+}
+
+
+
+/*================== Services ====================*/
+
+
+
+/*================== Doctors ====================*/
+
+
+#doctors .boxes-2{
+display: flex;
+flex-direction: column;
+margin: 3rem 4rem;
+/* padding: 0 2rem; */
+text-align: center;
+
+}
+
+#doctors .doc{
+margin: 1rem auto;
+
+}
+
+#doctors .doc  h3{
+font-size: 1.5rem;
+
+}
+
+#doctors .doc  p{
+font-size: 1rem;
+
+}
+
+
+#doctors .doc .btn-3{
+padding: 1rem 1rem;
+
+}
+
+#contact-us .boxes-3{
+
+grid-template-areas:
+'box-con-1'
+ 'box-con-2';
+
+}
+
+
+}
+
+
+/*================== Doctors ====================*/
+
+
+
+/*================== Mobile View ====================*/
+
+
+
+
+/*================== Small Mobile View ====================*/
+
+
+
+@media only screen and  (max-width: 600px){
+
+
+#services .boxes{
+grid-template-areas:
+'box-1' 
+'box-2' 
+'box-3' 
+'box-4'
+'box-5' 
+'box-6'
+'box-7' 
+'box-8';
+}
+
+
+
+}
+
+
+/*================== Small Mobile View ====================*/
