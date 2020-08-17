@@ -12,4 +12,4 @@ Health care systems are organizations established to meet the health needs of ta
 An efficient health care system can contribute to a significant part of a country's economy, development, and industrialization. Health care is conventionally regarded as an important determinant in promoting the general physical and mental health and well-being of people around the world. An example of this was the worldwide eradication of smallpox in 1980, declared by the WHO as the first disease in human history to be completely eliminated by deliberate health care interventions.[5]
 
 
-<img src = "assets/Worldhealthcarekncofficial.PN" width="50" >
+<img src = "assets/Worldhealthcarekncofficial.PNG" width="100" >
